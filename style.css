@@ -61,11 +61,10 @@ position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
 display: flex;
-margin-top: 270px;
+margin-top: 200px;
 justify-content: space-between;
 width: 80%;
 margin-left: 10%;
-    margin-right: 10%;
 
 
 }
@@ -74,8 +73,13 @@ margin-left: 10%;
 margin-left: 10%;
 }
 .imgt{
+    background-image: url(web-development-concept-with-programmer-ar.png);
     animation: ainmo 5s infinite;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
     
 
 }
@@ -117,28 +121,6 @@ margin-left: 0px;
 }
 
 
-}
-@media only screen and (max-width: 900px) {
- 
-
-h3{
-    font-size: 20px;
-}
-.linksm{
-    display: block;
-}
-
-.links{
-    display: none;
-    
-}
-.logo{
-    margin-top: 0PX;
-    padding-top: 15px;
-    position: relative;
-    left: 0px;
-
-}
 }
 .main1{
     margin-top: 300px;
@@ -430,4 +412,41 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 padding-top: 0px;
 border-radius: 20px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 900px) {
+  .imgt{
+margin-top: 90px;
+width: 250px;
+height: 250px;
+}
+.main1{
+    margin-top: 100px;
+}
+.texto{
+    font-size: medium;
+}
+.textt{
+        font-size: medium;
+
+}
+
+h3{
+    font-size: 20px;
+}
+.linksm{
+    display: block;
+}
+
+.links{
+    display: none;
+    
+}
+.logo{
+    margin-top: 0PX;
+    padding-top: 15px;
+    position: relative;
+    left: 0px;
+
+}
 }
