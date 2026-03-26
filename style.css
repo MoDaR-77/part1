@@ -1,0 +1,320 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+display: block;
+position: relative;
+}
+.logo{
+    font-size: 40px;
+    color: purple;
+    font-weight: 600;
+    margin-top: 15PX;
+    position: absolute;
+    left: 150px;
+
+}
+.links{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+
+    position: absolute;
+    right: 200px;
+    margin-top: 30PX;
+
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.links a:hover{
+    background-color: rgba(187, 187, 187, 0.26);
+    color: purple;
+    border-bottom: 3px solid purple;
+}
+.linksm{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+            margin-top: 0PX;
+            padding-top: 20px;
+            padding-bottom: 25px;
+            display: none;
+            background-color: rgb(255, 255, 255);
+
+}
+.linksm a{
+     text-decoration: none;
+    color: black;
+        padding: 10px;
+
+}
+.linksm a:hover{
+    background-color: rgba(187, 187, 187, 0.26);
+    color: purple;
+    border-bottom: 3px solid purple;
+}
+.texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+display: flex;
+margin-top: 270px;
+justify-content: space-between;
+width: 80%;
+margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+.textt{
+    
+margin-left: 10%;
+}
+.imgt{
+    margin-right: 10%;
+    animation: ainmo 5s infinite;
+    position: relative;
+    
+
+}
+@keyframes ainmo{
+     0%, 100% {
+    top: 0;
+}
+50% {
+    top: -50px;
+}
+}
+.texto::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 100%;
+    background-color: #ececec;
+    z-index: -1;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+@media only screen and (max-width: 1300px) {
+  .imgt{
+    display: none;
+}
+.texto{
+    justify-content: center;
+}
+.textt{
+    
+margin-left: 0px;
+}
+
+
+}
+@media only screen and (max-width: 900px) {
+ 
+
+
+.linksm{
+    display: block;
+}
+
+.links{
+    display: none;
+    
+}
+.logo{
+    margin-top: 0PX;
+    padding-top: 15px;
+    position: relative;
+    left: 0px;
+
+}
+}
+.main1{
+    margin-top: 300px;
+}
+.icon{
+    rotate: 90deg;
+    font-size: 30px;
+        animation: ainmo 2s infinite;
+    position: relative;
+
+}
+
+.articl {
+    text-transform: uppercase;
+    margin: 50px auto 80px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: var(--main-transition);}
+.articl:hover {
+        background-color: blueviolet;
+        color: white;
+        transition: 0.5s;
+}
+.arty1{
+    display: flex;
+justify-content: space-around;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+flex-wrap: wrap;
+gap: 25px;
+
+}
+.cart1{
+    width: 250px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 300px 150px 50px;
+ box-shadow: 1px 1px 7px 0px;
+}
+.imgcart1{
+    background-image: url(s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px ;
+
+}
+.text2cart2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: purple;
+    font-weight: 600;
+    border-top: solid 2px purple;
+}
+.cart1:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+
+}
+
+.articl2{
+   text-transform: uppercase;
+    margin: 50px auto 80px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative; 
+}
+.articl2:hover {
+        background-color: blueviolet;
+        color: white;
+        transition: 0.5s;
+}
+
+.arty2{
+
+ display: flex;
+justify-content: space-around;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+flex-wrap: wrap;
+gap: 25px;
+}
+.cart2{
+       width: 300px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 20px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 250px 50px 150px 50px;
+ box-shadow: 0px 0px 1px 0px ;
+ 
+}
+.c2par1{
+    background-image: url(pngegg.png);
+    background-position: center;
+    background-size: contain;
+
+}
+.c2par2{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.c2par2 p{
+    font-size: xx-large;
+    margin: 0px;
+    border-bottom: 5px solid purple;
+}
+.c2par3{
+    font-size:larger ;
+    color: rgb(165, 165, 165);
+}
+
+button{
+    color: purple;
+    background-color: white;
+    font-size: x-large;
+    padding-left: 30px;
+        padding-right: 30px;
+        border: 3px solid purple;
+        border-radius: 10px;
+
+
+}
+.cart2::after {
+    content: "";
+    background-color: purple;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+
+    height: 0px;
+
+
+}
+.ppp{
+    display: none;
+    border-radius: 20px;
+}
+.cart2:hover .ppp{
+    position: absolute;
+        display: block;
+
+    background-color: rgba(206, 206, 206, 0.658);
+width: 300px;    
+height: 430px;
+z-index: -1;        animation: maxom 0.7s;
+
+
+}
+.cart2:hover .c2par3{
+   color: rgb(0, 0, 0);
+   
+}
+.cart2:hover button{
+    background-color: rgba(128, 0, 128, 0.671);
+    color: white;
+    font-size: xx-large;
+    transition: 0.7s;
+
+}
+.cart2:hover .c2par1{
+    filter: blur(10px);
+transition: 1s;
+}
+@keyframes maxom{
+from{
+    height:  0px;
+}
+to{
+    height: 430px;
+}
+}
+
