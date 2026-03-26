@@ -74,7 +74,6 @@ margin-left: 10%;
 margin-left: 10%;
 }
 .imgt{
-    margin-right: 10%;
     animation: ainmo 5s infinite;
     position: relative;
     
@@ -100,12 +99,17 @@ margin-left: 10%;
     transform: skewY(-6deg);
     transform-origin: top left;
 }
+h3{
+   font-size: 30px;
+}
 @media only screen and (max-width: 1300px) {
   .imgt{
-    display: none;
+margin-top: 90px;
 }
 .texto{
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px
 }
 .textt{
     
@@ -117,7 +121,9 @@ margin-left: 0px;
 @media only screen and (max-width: 900px) {
  
 
-
+h3{
+    font-size: 20px;
+}
 .linksm{
     display: block;
 }
@@ -140,7 +146,7 @@ margin-left: 0px;
 .icon{
     rotate: 90deg;
     font-size: 30px;
-        animation: ainmo 2s infinite;
+        animation: ainmo 1.5s infinite;
     position: relative;
 
 }
@@ -151,14 +157,38 @@ margin-left: 0px;
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 30px;
-    width: fit-content;
+    width: 200px;
     position: relative;
     z-index: 1;
-    transition: var(--main-transition);}
+
+}
+    .ani{
+        position: absolute;
+        left: -30px;
+        top: 16px;
+    }
+    .anib{
+        position: absolute;
+        right: -30px;
+        top: 16px;
+    }
 .articl:hover {
         background-color: blueviolet;
         color: white;
         transition: 0.5s;
+}
+.articl:hover .ani{
+    color: rgba(255, 255, 255, 0);
+    transform: translatex(30px);
+    transition: 2s;
+    
+}
+
+.articl:hover .anib{
+    color: rgba(255, 255, 255, 0);
+    transform: translatex(-60px);
+    transition: 2s;
+    
 }
 .arty1{
     display: flex;
@@ -317,4 +347,87 @@ to{
     height: 430px;
 }
 }
+.party{
+    background-color: rgb(241, 241, 241);
+    padding-top: 80px;
+}
+.arty3{
+ display: flex;
+justify-content: space-around;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+flex-wrap: wrap;
+gap: 25px;
+text-align: left;
 
+}
+.cont{
+    margin-top: 50px;
+}
+.carde1{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 250px;
+    padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+
+    font-size: large;
+padding-top: 0px;
+border-radius: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.daer{
+    background-image: url(s.jpg);
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid rgb(241, 241, 241);
+    right: -20px;
+}
+.carde2{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 250px;
+    padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+
+    font-size: large;
+padding-top: 0px;
+border-radius: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.carde3{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 250px;
+    padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+
+    font-size: large;
+padding-top: 0px;
+border-radius: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carde4{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 250px;
+    padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+
+    font-size: large;
+padding-top: 0px;
+border-radius: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
