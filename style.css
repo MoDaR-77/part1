@@ -186,32 +186,58 @@ gap: 25px;
     width: 250px;
     border: 1px solid purple;
     border-radius: 20px;
+    background-color: rgb(235, 235, 235);
     height: 500px;
     display: grid;
     grid-template-rows: 300px 150px 50px;
  box-shadow: 1px 1px 7px 0px;
+ text-align: left;
 }
 .imgcart1{
-    background-image: url(s.jpg);
+    background-image: url(ss.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px 20px 0px 0px ;
 
 }
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+     padding-left: 20px;
+
+}
+.text1cart1 p{
+         padding-left: 20px;
+         color: #646464;
+
+}
 .text2cart2{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 10px;
-    color: purple;
+    color: rgb(0, 0, 0);
     font-weight: 600;
-    border-top: solid 2px purple;
+    border-top: solid 1px rgb(0, 0, 0);
+        border-radius: 20px;
+
+
 }
 .cart1:hover{
   transform: scale(1.05);
   transition: 0.5s;
+ box-shadow: 1px 1px 20px 0px purple;
 
 }
+.cart1:hover .text2cart2{
+    background-color: rgba(136, 19, 136, 0.74);
+    border-radius: 20px;
+    position: relative;
+    color: white;
+    translate: 0px -10px;
+    transition: 0.5s;
+    padding-bottom: 0px;
 
+}
 .articl2{
    text-transform: uppercase;
     margin: 50px auto 80px;
@@ -248,9 +274,10 @@ gap: 25px;
  
 }
 .c2par1{
-    background-image: url(pngegg.png);
+    background-image: url(sd.png);
     background-position: center;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .c2par2{
@@ -265,7 +292,7 @@ gap: 25px;
     border-bottom: 5px solid purple;
 }
 .c2par3{
-    font-size:larger ;
+    font-size:medium ;
     color: rgb(165, 165, 165);
 }
 
@@ -275,8 +302,8 @@ button{
     font-size: x-large;
     padding-left: 30px;
         padding-right: 30px;
-        border: 3px solid purple;
-        border-radius: 10px;
+        border: 4px solid purple;
+        border-radius:6px;
 
 
 }
@@ -332,6 +359,7 @@ to{
 .party{
     background-color: rgb(241, 241, 241);
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 .arty3{
  display: flex;
@@ -362,11 +390,55 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .daer{
-    background-image: url(s.jpg);
+    background-image: url(rabbit_bunny_animal_wildlife_mammal_rodent_icon_141989.png);
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid rgb(241, 241, 241);
+    right: -20px;
+}
+.daer2{
+    background-image: url(c.png);
+    background-size: 80px;
+        background-color: rgb(241, 241, 241);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid rgb(241, 241, 241);
+    right: -20px;
+}
+.daer3{
+    background-image: url(womanglasses28_116003.png);
+    background-position: center;
+        background-color: rgb(241, 241, 241);
+
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid rgb(241, 241, 241);
+    right: -20px;
+}
+.daer4{
+    background-image: url(d.png);
     background-position: center;
     background-size: contain;
     position: absolute;
     top: -20px;
+        background-color: rgb(241, 241, 241);
+
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -414,7 +486,195 @@ border-radius: 20px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+.atricl4{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    margin: 80px auto 80px;
+font-size: 30px;
+border-radius: 0px;
+border: 2px solid rgb(0, 0, 0);
+padding: 5px;
+}
+.atricl4:hover{
+    background-color: rgba(168, 13, 168, 0.856);
+    color: #ececec;
+    transition: 0.3s;
+}
+
+.Team{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.team1:hover::after{
+    content: "";
+    width: 0px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.37);
+    z-index: 1;
+    position: absolute;
+    border-radius: 15px;
+    animation: mart 1s ease-in;
+    animation-fill-mode: both;
+    right: 0px;
+
+
+
+    
+
+}
+.team1:hover i{color: white;
+}
+.team1:hover .pic2{
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+.team1:hover .pic3{
+    color: white;
+    transition: 2s;
+}
+@keyframes mart {
+    frome{
+            width: 0px;
+
+    }
+    to{
+        width: 350px;
+    }
+}
+.team1{
+    background-color: rgba(241, 241, 241, 0.788);
+    width: 350px;
+    height: 450px;
+    display: grid;
+    position: relative;
+    grid-template-rows: 350px 50px 50px;
+    
+border-radius: 15px;
+}
+.pic1 i{
+    display: block;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-size: 25px;
+    color: #6d6d6d;
+    position: relative;
+    z-index: 3;
+}
+.pic1 i:hover{
+    color: rgb(0, 140, 255);
+    transition: 0.3s;
+font-size: 30px;
+}
+.pic1{
+    text-align: right;
+    padding-top: 80px;
+position: relative;
+    z-index: 2;
+}
+.pic3{
+    text-align: left;
+    padding-left: 20px;
+    font-size:large;
+    padding-top: 5px;
+    z-index: 2;
+
+}
+.pic2{
+    text-align: left;
+    padding-left: 20px;
+    font-size:xx-large;
+    padding-top: 5px;
+        font-weight: 600;
+        color: rgb(34, 98, 218);
+    z-index: 2;
+
+
+}
+.team1:hover .pic4{
+    filter: brightness(60%);
+    transition: 2s;
+}
+.team1:hover .pic41{
+    filter: brightness(60%);
+    transition: 2s;
+}
+.team1:hover .pic42{
+    filter: brightness(60%);
+    transition: 2s;
+}
+.pic4{
+    background-color: blue;
+    background-image: url(f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+z-index: 2;
+
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: -60px;
+    border-radius: 20px;
+    top: 40px;
+    
+}
+
+.pic41{
+    background-color: blue;
+    background-image: url(r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+z-index: 2;
+
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: -60px;
+    border-radius: 20px;
+    top: 40px;
+    
+}
+
+.pic42{
+    background-color: blue;
+    background-image: url(f2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+z-index: 2;
+
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: -60px;
+    border-radius: 20px;
+    top: 40px;
+    
+}
+
+
+
 @media only screen and (max-width: 900px) {
+    .Team{
+       width: 80%;
+       margin-left: 10%;
+
+    }
+    .pic4{
+        width: 300px;
+        height: 300px;
+    left: -20px;
+
+    }
   .imgt{
 margin-top: 90px;
 width: 250px;
@@ -449,4 +709,46 @@ h3{
     left: 0px;
 
 }
+@keyframes mart {
+    frome{
+            width: 0px;
+
+    }
+    to{
+        width: 330px;
+    }
+}
+}
+@media only screen and (max-width: 400px) {
+
+
+.pic4{
+    left: -15px;
+    width: 260px;
+
+}
+
+.pic41{
+    left: -15px;
+    width: 260px;
+
+}
+
+.pic42{
+    left: -15px;
+    width: 260px;
+
+}
+
+
+@keyframes mart {
+    frome{
+            width: 0px;
+
+    }
+    to{
+        width: 300px;
+    }
+}
+
 }
