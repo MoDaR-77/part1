@@ -1,6 +1,49 @@
+
+
 body{
     margin: 0px;
     text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+                    font-size: x-large;
+
+
+}
+h5{
+    font-size: 80px;
+    margin: 0px;
+}
+
+
+
+.text{
+        font-family: 'Liberty';
+        font-weight: 100;
+}
+        .letter{
+            color: #d9fdff;
+            text-shadow: 0 0 2rem #ff00b3;
+
+        }
+.letter-2{
+    position: relative; 
+  transform: rotate(-15deg);
+  top: 20px;
+  display: inline-block
+}
+.letter-5{
+    position: relative; 
+  top: 20px;
+  display: inline-block
+}
+.letter-6{
+    position: relative; 
+  transform: rotate(15deg);
+  top: 20px;
+  display: inline-block
 }
 .nav{
     background-color: rgb(255, 255, 255);
@@ -19,7 +62,7 @@ position: relative;
 }
 .links{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 20px;
+        font-size: 25px;
 
     position: absolute;
     right: 200px;
@@ -68,8 +111,10 @@ margin-left: 10%;
 
 
 }
+.texto p{
+    color: #757575;
+}
 .textt{
-    
 margin-left: 10%;
 }
 .imgt{
@@ -229,12 +274,15 @@ h1{
 
 }
 .cart1:hover .text2cart2{
-    background-color: rgba(136, 19, 136, 0.74);
+    background-color: rgb(235, 235, 235);
     border-radius: 20px;
     position: relative;
+    border: 0px;
     color: white;
     translate: 0px -10px;
+    color: rgb(255, 0, 255);
     transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
     padding-bottom: 0px;
 
 }
@@ -664,6 +712,14 @@ z-index: 2;
 
 
 @media only screen and (max-width: 900px) {
+
+
+    h5{
+    font-size: 40px;
+}
+.texto p{
+    font-size: 10px;
+}
     .Team{
        width: 80%;
        margin-left: 10%;
@@ -720,8 +776,12 @@ h3{
 }
 }
 @media only screen and (max-width: 400px) {
-
-
+h5{
+    font-size: 30px;
+}
+.texto p{
+    font-size: 10px;
+}
 .pic4{
     left: -15px;
     width: 260px;
@@ -751,4 +811,208 @@ h3{
     }
 }
 
+}
+
+
+.prices{
+    
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+
+}
+.cartp{
+    border-radius: 10px;
+
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    margin-top: 30px;
+        margin-bottom: 30px;
+
+    width: 250px;
+    display: grid;
+    grid-template-rows:250px 250px 100px ;
+     box-shadow: 1px 1px 3px 0px;
+
+}
+.cartp1{
+ border-radius: 10px;
+
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    margin-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
+
+    width: 250px;
+    display: grid;
+    grid-template-rows:250px 250px 100px ;
+     box-shadow: 1px 1px 3px 0px;
+
+}
+.mostp{
+    background-color: rgba(0, 102, 255, 0.795);
+    position: absolute;
+    color: white;
+    top: 0px;
+    right: 0px;
+    padding: 8px;
+    font-size:15px;
+        border-radius: 0px 17px 0px 50px;
+
+}
+.cartp:hover{
+    translate: 0px -30px;
+    transition: 1s;
+}
+.pare3 button{
+    margin-top: 40px;
+    font-size: medium;
+    border: 2px solid rgb(0, 68, 255);
+    padding: 5px;
+    color: rgb(0, 68, 255);
+}
+.pare2 l{
+    display: block;
+    font-size: larger;
+    padding-top: 25px;
+
+}
+.pare2 l i{
+    color: rgb(0, 68, 255);
+    font-size: larger;
+    padding-right: 10px;
+}
+footer{
+    margin-top: 50px;
+
+    background-color: rgb(37, 36, 36);
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.fmain{
+width:350px;
+height: 300px;
+text-align: center;
+    font-family: Cairo, sans-serif;
+
+color: #ffffff;
+
+}
+.fmain h1{
+    font-size: 60px;
+    position: relative;
+    left: -15px;
+}
+.fmain i{
+    font-size: 40px;
+        padding: 10px;
+
+    color: rgb(223, 223, 223);
+}
+.fmain i:hover{
+    color: aqua;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.fmain p{
+    color: #6d6d6d;
+}
+.flimk{
+width: 350px;
+height: 300px;
+display: block;
+padding-top: 40px;
+
+}
+.flimk a{
+    display: block;
+    text-align: left;
+    padding: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: #ececec;
+}
+.flimk a i{
+    padding-right: 20px;
+}
+.flimk a:hover{
+    color: aqua;
+    transition: 0.3s;
+    translate: 20px;
+}
+.fcal{
+width: 350px;
+height: 300px;
+text-align: center;
+font-size: larger;
+    color: #ececec;
+
+}
+.fcal i{
+    font-size: xx-large;
+    padding-right: 10px;
+    color: rgb(0, 162, 255);
+
+}
+.fgal{
+width: 350px;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-top: 30px;
+gap: 10px;
+}
+.phptp{
+    background-image: url(sd.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.phptp1{
+    background-image: url(rabbit_bunny_animal_wildlife_mammal_rodent_icon_141989.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.phptp2{
+    background-image: url(d.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.phptp3{
+    background-image: url(wwwwww.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.phptp4{
+    background-image: url(r.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+.phptp5{
+    background-image: url(c.png);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
 }
