@@ -711,95 +711,6 @@ z-index: 2;
 
 
 
-@media only screen and (max-width: 900px) {
-
-
-    h5{
-    font-size: 40px;
-}
-.texto p{
-    font-size: 10px;
-}
-    .Team{
-       width: 80%;
-       margin-left: 10%;
-
-    }
-    .pic4{
-        width: 300px;
-        height: 300px;
-    left: -20px;
-
-    }
-  .imgt{
-margin-top: 90px;
-width: 250px;
-height: 250px;
-}
-.main1{
-    margin-top: 100px;
-}
-.texto{
-    font-size: medium;
-}
-.textt{
-        font-size: medium;
-
-}
-
-h3{
-    font-size: 20px;
-}
-.linksm{
-    display: block;
-}
-
-.links{
-    display: none;
-    
-}
-.logo{
-    margin-top: 0PX;
-    padding-top: 15px;
-    position: relative;
-    left: 0px;
-
-}
-@keyframes mart {
-    frome{
-            width: 0px;
-
-    }
-    to{
-        width: 330px;
-    }
-}
-}
-@media only screen and (max-width: 400px) {
-h5{
-    font-size: 30px;
-}
-.texto p{
-    font-size: 10px;
-}
-.pic4{
-    left: -15px;
-    width: 260px;
-
-}
-
-.pic41{
-    left: -15px;
-    width: 260px;
-
-}
-
-.pic42{
-    left: -15px;
-    width: 260px;
-
-}
-
 
 @keyframes mart {
     frome{
@@ -810,10 +721,6 @@ h5{
         width: 300px;
     }
 }
-
-}
-
-
 .prices{
     
     background-color: rgb(236, 236, 236);
@@ -1015,4 +922,122 @@ gap: 10px;
     background-size: cover;
     width: 100px;
     height: 100px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+    h5{
+    font-size: 40px;
+}
+.texto p{
+    font-size: 10px;
+}
+    .Team{
+       width: 80%;
+       margin-left: 10%;
+
+    }
+    .pic4{
+        width: 300px;
+        height: 300px;
+    left: -20px;
+
+    }
+  .imgt{
+margin-top: 90px;
+width: 250px;
+height: 250px;
+}
+.main1{
+    margin-top: 100px;
+}
+.texto{
+    font-size: medium;
+}
+.textt{
+        font-size: medium;
+
+}
+
+h3{
+    font-size: 20px;
+}
+.linksm{
+    display: block;
+}
+
+.links{
+    display: none;
+    
+}
+.logo{
+    margin-top: 0PX;
+    padding-top: 15px;
+    position: relative;
+    left: 0px;
+
+}
+@keyframes mart {
+    frome{
+            width: 0px;
+
+    }
+    to{
+        width: 330px;
+    }
+}
+}
+@media only screen and (max-width: 400px) {
+h5{
+    font-size: 40px;
+    color: red;
+
+}
+h5::after{
+    content: ".";
+    display: block;
+    color: #64646400;
+
+}
+.nav{
+height: 50px;
+}
+.linksm{
+    border-radius: 0px 0px 30px 30px;
+
+}
+ .letter{
+            color: rgb(255, 255, 255);
+            text-shadow: 0rem 0rem 0.5rem rgb(156, 22, 156);
+
+        }
+        .logo{
+            display: none;
+        }
+.texto p{
+    font-size: 15px;
+     margin-top: 30px;
+}
+.pic4{
+    left: -15px;
+    width: 260px;
+
+}
+
+.pic41{
+    left: -15px;
+    width: 260px;
+
+}
+
+.pic42{
+    left: -15px;
+    width: 260px;
+
+}
+
+
+
 }
